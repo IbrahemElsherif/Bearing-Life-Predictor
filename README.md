@@ -1,11 +1,10 @@
 
 
-```markdown
 # Bearing RUL Prediction
 
 A machine learning pipeline for predicting the **Remaining Useful Life (RUL)** of ball bearings using sensor data (vibration, temperature, speed, and force). The project was developed modularly with local MLflow tracking and later integrated into Azure ML for scalable training and inference.
 
----
+
 
 ## 🔧 Project Structure
 
@@ -20,7 +19,7 @@ notebooks/          # Jupyter notebooks for experimentation
 config.yaml         # Central configuration
 ```
 
----
+
 
 ## 🧪 Workflow Overview
 
