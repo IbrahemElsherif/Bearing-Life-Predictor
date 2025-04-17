@@ -1,6 +1,4 @@
-Here's a clean and professional `README.md` for your **Bearing RUL Prediction** project that reflects your full workflow—local modular development, MLflow tracking, and Azure ML integration:
 
----
 
 ```markdown
 # Bearing RUL Prediction
@@ -96,9 +94,8 @@ This project uses the [PRONOSTIA bearing dataset](https://www.femto-st.fr/en/Res
 
 ## 📂 Output Files
 
-- `data/processed/all_acc_data.csv`
-- `data/processed/all_temp_data.csv`
-- Trained models stored in `mlruns/` or Azure ML registry
+- `data/processed/processed_bearing_rul_data.csv`
+- Trained models stored in Azure ML registry
 - Evaluation metrics logged per run
 
 ---
@@ -109,19 +106,3 @@ This project uses the [PRONOSTIA bearing dataset](https://www.femto-st.fr/en/Res
 - Time-aware models (e.g., LSTM)
 - Real-time streaming inference setup (IoT edge or Azure Function)
 
----
-
-## 🧑‍💻 Contributors
-
-- Team: [Your Names Here]
-
----
-
-## 📜 License
-
-MIT License
-```
-
----
-
-Would you like me to save this as a file or include project badges (e.g., Python version, MLflow)?
