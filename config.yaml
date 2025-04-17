@@ -1,0 +1,47 @@
+# Project paths
+paths:
+  raw_data_dir: data/raw
+  processed_data_dir: data/processed
+  reports_dir: artifacts/reports
+  figures_dir: artifacts/figures
+  model_dir: checkpoints/models
+  preprocessor_dir: checkpoints/preprocessor
+  log_dir: logs
+  train_data_path: data/raw/train.csv
+  test_data_path: data/raw/test.csv
+  prod_data_path: data/raw/production.csv
+
+# Data configuration
+data:
+  split_size: 0.2
+  seed: 42
+  target_col: failure
+  categorical_cols:
+    - bearing_id
+  numerical_cols: []  # Will be auto-populated if empty
+
+# MLflow configuration
+mlflow:
+  experiment_name: bearing_failure_prediction
+  tracking_uri: mlruns
+
+# Model configurations
+models:
+  - name: DecisionTreeClassifier
+    params:
+      max_depth: 5
+      criterion: entropy
+  
+  - name: RandomForestClassifier
+    params:
+      n_estimators: 100
+      
+  - name: XGBClassifier
+    params:
+      n_estimators: 100
+      max_depth: 6
+      learning_rate: 0.1
+      subsample: 0.8
+      colsample_bytree: 0.8
+      objective: 'binary:logistic'
+      eval_metric: 'logloss'

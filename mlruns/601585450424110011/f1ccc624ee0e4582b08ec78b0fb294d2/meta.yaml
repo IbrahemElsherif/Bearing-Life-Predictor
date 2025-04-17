@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Machine%20Learning/CodE/2.%20Projects/Ai%20prediction/mlruns/601585450424110011/f1ccc624ee0e4582b08ec78b0fb294d2/artifacts
+end_time: 1744844996579
+entry_point_name: ''
+experiment_id: '601585450424110011'
+lifecycle_stage: active
+run_id: f1ccc624ee0e4582b08ec78b0fb294d2
+run_name: decision_tree
+run_uuid: f1ccc624ee0e4582b08ec78b0fb294d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744844996526
+status: 4
+tags: []
+user_id: ebrah

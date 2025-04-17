@@ -1,0 +1,35 @@
+digest: 92456aa4
+name: dataset
+profile: '{"num_rows": 55021, "num_elements": 2145819}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "timestamp", "required": true},
+  {"type": "double", "name": "h_mean", "required": true}, {"type": "double", "name":
+  "h_std", "required": true}, {"type": "double", "name": "h_max", "required": true},
+  {"type": "double", "name": "h_min", "required": true}, {"type": "double", "name":
+  "h_kurtosis", "required": true}, {"type": "double", "name": "h_skewness", "required":
+  true}, {"type": "double", "name": "h_crest_factor", "required": true}, {"type":
+  "double", "name": "h_shape_factor", "required": true}, {"type": "double", "name":
+  "v_mean", "required": true}, {"type": "double", "name": "v_std", "required": true},
+  {"type": "double", "name": "v_max", "required": true}, {"type": "double", "name":
+  "v_min", "required": true}, {"type": "double", "name": "v_kurtosis", "required":
+  true}, {"type": "double", "name": "v_skewness", "required": true}, {"type": "double",
+  "name": "v_crest_factor", "required": true}, {"type": "double", "name": "v_shape_factor",
+  "required": true}, {"type": "double", "name": "v_impulse_factor", "required": true},
+  {"type": "double", "name": "h_peak_freq", "required": true}, {"type": "double",
+  "name": "h_freq_skewness", "required": true}, {"type": "double", "name": "h_freq_kurtosis",
+  "required": true}, {"type": "double", "name": "h_psd_max", "required": true}, {"type":
+  "double", "name": "h_band_0_energy", "required": true}, {"type": "double", "name":
+  "h_band_1_energy", "required": true}, {"type": "double", "name": "h_band_3_energy",
+  "required": true}, {"type": "double", "name": "h_band_4_energy", "required": true},
+  {"type": "double", "name": "v_peak_freq", "required": true}, {"type": "double",
+  "name": "v_freq_skewness", "required": true}, {"type": "double", "name": "v_freq_kurtosis",
+  "required": true}, {"type": "double", "name": "v_psd_max", "required": true}, {"type":
+  "double", "name": "v_psd_sum", "required": true}, {"type": "double", "name": "v_band_0_energy",
+  "required": true}, {"type": "double", "name": "v_band_1_energy", "required": true},
+  {"type": "double", "name": "v_band_2_energy", "required": true}, {"type": "double",
+  "name": "v_band_3_energy", "required": true}, {"type": "double", "name": "v_band_4_energy",
+  "required": true}, {"type": "double", "name": "radial_force", "required": true},
+  {"type": "double", "name": "rotation_speed", "required": true}, {"type": "double",
+  "name": "torque", "required": true}]}'
+source: '{"tags": {"mlflow.user": "ebrah", "mlflow.source.name": "src/main.py", "mlflow.source.type":
+  "LOCAL"}}'
+source_type: code
